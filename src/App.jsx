@@ -38,7 +38,7 @@ function App() {
           <Route path='/about' element={<About />}/>
         </Routes>
       </main>
-    <footer id="footer" className="f-jc-ac"><p>© {new Date().getFullYear()} Jordan Schulte</p></footer>
+    <footer id="footer" className="f-jc-ac"><p>© {new Date().getFullYear()} Jordan</p></footer>
     </>
   )
 }
