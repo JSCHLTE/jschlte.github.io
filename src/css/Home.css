@@ -7,10 +7,12 @@
 
 .home-title-wrapper h2 {
     font-size: 35pt;
+    margin: 0 25px;
+    text-align: center;
 }
 
 .home-title-wrapper p {
-    margin: 1.25rem 0 2rem;
+    margin: 1.25rem 25px 2rem;
     text-align: center;
     font-size: 15pt;
 }
@@ -30,6 +32,7 @@
     border: 1px solid #fff;
     transition: all .4s cubic-bezier(.22,1,.36,1);
     font-family: 'Orbitron', sans-serif;
+    margin-top: 10px;
 }
 
 .home-button:hover {

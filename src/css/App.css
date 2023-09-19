@@ -178,4 +178,8 @@ a {
     width: 100px;
     height: 100px;
   }
+
+  #component-wrapper {
+    padding: 10% 5%;
+  }
 }
