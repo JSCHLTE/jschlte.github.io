@@ -25,11 +25,6 @@
     margin-right: 2.5rem;
 }
 
-
-.about-work {
-    margin: 3.125rem 0;
-}
-
 .work-card-wrapper, .work-card-role-list {
     margin: 0 3.125rem;
 }
@@ -58,6 +53,10 @@
     margin: 0 1.5rem;
 }
 
+.work-card-wrapper {
+    padding-left: 2.5rem;
+}
+
 @media screen and (max-width: 59.375rem) {
     .work-card-wrapper {
         margin: 0;
@@ -74,5 +73,9 @@
 
     .about-content-heading-img {
         margin: 0 auto 3.125rem;
+    }
+
+    .about-content-heading p {
+        margin: 1rem 2rem;
     }
 }

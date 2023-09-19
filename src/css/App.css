@@ -19,10 +19,6 @@ a {
   color: unset;
 }
 
-#component-wrapper {
-  padding: 5%;
-}
-
 .f-jc-ac {
   display: flex;
   justify-content: center;
@@ -31,6 +27,7 @@ a {
 
 .title-wrapper {
   font-size: 18pt;
+  margin: 50px;
 }
 
 .link-a, .link-w {
@@ -152,6 +149,11 @@ a {
     align-items: center;
   }
 
+  .title-wrapper {
+    margin: 50px 0;
+    text-align: center;
+  }
+
   .navbar-wrapper {
     display: none;
     position: absolute;
@@ -177,9 +179,5 @@ a {
   .navbar-logo img{
     width: 100px;
     height: 100px;
-  }
-
-  #component-wrapper {
-    padding: 10% 5%;
   }
 }
